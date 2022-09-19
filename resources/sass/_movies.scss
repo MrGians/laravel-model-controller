@@ -1,0 +1,14 @@
+// # Best Movies Section
+#best-movies {
+    a.show-movie {
+        text-decoration: none;
+        font-weight: bold;
+        color: teal;
+        transition: all 0.3s;
+
+        &:hover {
+            font-size: 1.05rem;
+            color: tomato;
+        }
+    }
+}

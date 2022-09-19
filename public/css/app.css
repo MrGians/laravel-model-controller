@@ -10858,3 +10858,14 @@ textarea.form-control-lg {
 body {
   background-color: teal;
 }
+
+#best-movies a.show-movie {
+  text-decoration: none;
+  font-weight: bold;
+  color: teal;
+  transition: all 0.3s;
+}
+#best-movies a.show-movie:hover {
+  font-size: 1.05rem;
+  color: tomato;
+}
