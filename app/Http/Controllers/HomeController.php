@@ -17,7 +17,6 @@ class HomeController extends Controller
     public function show($id)
     {
         $movie = Movie::findOrFail($id);
-        dump($movie);
         return view('movies.show', compact('movie'));
     }
 }
