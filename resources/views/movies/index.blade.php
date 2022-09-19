@@ -4,7 +4,7 @@
 {{-- Best Movies Section --}}
   <section id="best-movies" class="my-4">
     <div class="container">
-      <h2 class="text-center mb-3">Lista dei film più visti su Web Movies</h2>
+      <h2 class="text-center mb-3 text-light">Lista dei film più visti su Web Movies</h2>
       {{-- Movies Tier List --}}
       <ol class="list-group list-group-numbered">
         @forelse($movies as $movie)

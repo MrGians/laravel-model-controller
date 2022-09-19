@@ -10869,3 +10869,13 @@ body {
   font-size: 1.05rem;
   color: tomato;
 }
+
+#movie-info a.go-back {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition: all 0.3s;
+}
+#movie-info a.go-back:hover {
+  color: teal;
+}

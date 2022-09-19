@@ -12,3 +12,17 @@
         }
     }
 }
+
+// # Single Movie page
+#movie-info {
+    a.go-back {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        transition: all 0.3s;
+
+        &:hover {
+            color: teal;
+        }
+    }
+}
